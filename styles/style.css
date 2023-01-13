@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+html{
+  font-size: 18px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+--clr-Soft-blue: hsl(215, 51%, 70%);
+--clr-Cyan: hsl(178, 100%, 50%);
+--clr-Very-dark-blue: hsl(217, 54%, 11%);
+--clr-Very-dark-blue: hsl(216, 50%, 16%);
+--clr-Very-dark-blue: hsl(215, 32%, 27%);
+--clr-White: hsl(0, 0%, 100%);
+--ff-outfit:'Outfit', sans-serif;
+}
+
+body{
+  background-color: hsl(217, 54%, 11%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.card{
+  width: 242px;
+  height: 409px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 6rem auto;
+  border-radius: 10px;
+  padding: 0.95rem;
+  box-shadow: 12px 20px 20px 4px rgba(0,0,0,0.15);
+}
+
+.equilibrium-image{
+  width: 100%;
+  height: 208px;
+  border-radius: 5px;
+  margin-bottom: 0.6rem;
+}
+
+.equilibrium-image{
+  cursor: pointer;
+}
+
+.title{
+  font-weight: 400;
+  font-size: 14.5px;
+  color: rgb(255, 255, 255);
+  font-family: var(--ff-outfit);
+  letter-spacing: 0.4px;
+  margin-bottom: 0.65rem;
+}
+
+.title:hover{
+  color: cyan;
+  cursor: pointer;
+}
+
+.description{
+  font-weight: 300;
+  font-size: 12.25px;
+  font-family: var(--ff-outfit);
+  color:hsl(216, 24%, 59%);
+  line-height: 1rem;
+  margin-bottom: 0.85rem;
+}
+
+.price-time-container{
+  display: flex;
+  font-size: 13px;
+  margin-bottom: 0.85rem;
+  width: 100%;
+  align-items: center;
+  
+}
+
+.ethereum-icon{
+  height: 12.5px;
+}
+
+.clock-icon{
+  height: 12px;
+  margin-left: 4rem;
+  margin-right: 4px;
+}
+
+.eth-count{
+  margin-left: 5px;
+  color: hsl(180, 100%, 45%);
+  font-family: var(--ff-outfit);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.days-left{
+  font-family: var(--ff-outfit);
+  font-size: 11px;
+  color: hsl(216, 24%, 59%);
+}
+
+.line{
+  border-color: hsl(217, 54%, 30%); 
+  height: 0.1px;
+  margin-bottom: 0.55rem;
+}
+
+.bottom-container{
+  display: flex;
+  align-items: center;
+}
+
+.avatar-image{
+  height: 1.3rem;
+  border-radius: 50%;
+  border: 1px solid var(--clr-White);
+}
+
+.created-by-container1{
+  font-family: var(--ff-outfit);
+  font-size: 11.25px;
+  color: var(--clr-Soft-blue);
+  margin-left: 0.55rem;
+}
+
+.created-by-container2{
+  font-family: var(--ff-outfit);
+  font-size: 11.25px;
+  color: rgb(255, 255, 255);
+  margin-left: 2.2px;
+  font-weight: 300;
+}
+
+.created-by-container2:hover{
+  color: cyan;
+  cursor: pointer;
+}
+
+
+
+
